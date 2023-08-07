@@ -128,6 +128,7 @@ class USearch(VectorStore):
 
         return docs
 
+    @classmethod
     def from_texts(
         cls,
         texts: List[str],
